@@ -1,0 +1,69 @@
+section,quantity,value,unit,note
+5.1,Suit capacitance (mandated),200,pF,NASA design assumption
+5.1,Differential (mandated),110,kV,NASA judging criterion
+5.1,Charge to remove,22,uC,Q = CV
+5.1,Stored energy,1.21,J,0.5CV^2
+5.2,Average current over 30 s,733.333,nA,
+5.2,Fraction of 0.2 mA target,0.366667,%,
+5.2,Fraction of 1.0 mA cap,0.0733333,%,
+5.1,Electrons to emit,1.37313e+14,count,
+5.2,Equivalent resistance at 0.2 mA (R2 target),0.55,GOhm,5tau=0.55 s
+5.2,Equivalent resistance at 10 uA,11,GOhm,5tau=11.00 s
+5.2,Equivalent resistance at avg,150,GOhm,5tau=150.00 s
+5.3,Field at 110000 V over 1 mm,110,MV/m,
+5.3,Field at 110000 V over 5 mm,22,MV/m,
+5.3,Field at 1000 V over 1 mm,1,MV/m,
+5.3,Field at 500 V over 1 mm,0.5,MV/m,
+5.3,Field at 50 V over 1 mm,0.05,MV/m,
+5.4,Optical power at 0.01% quantum yield,35.7867,mW,1.373e+18 photons
+5.4,Optical power at 0.1% quantum yield,3.57867,mW,1.373e+17 photons
+5.4,Optical power at 1% quantum yield,0.357867,mW,1.373e+16 photons
+5.5,Emitter power at 30 s average,0.431373,mW,area 0.0014 cm2
+5.5,Emitter power at 10 uA,5.88235,mW,area 0.0196 cm2
+5.5,Emitter power at 0.2 mA (R2),117.647,mW,area 0.3922 cm2
+5.6,Fraction of solar UV-C required,3.66667,%,
+5.6,Electrical power at 3.7% solar,12.2222,W,
+5.6,Electrical power at 5.0% solar,16.6667,W,
+5.6,Electrical power at 10.0% solar,33.3333,W,
+5.7,"5tau at 10 GOhm, C=111 pF",5.55,s,PASS
+5.7,"5tau at 10 GOhm, C=200 pF",10,s,PASS
+5.7,"5tau at 10 GOhm, C=336 pF",16.8,s,PASS
+5.7,"5tau at 10 GOhm, C=600 pF",30,s,PASS
+5.7,"5tau at 10 GOhm, C=1000 pF",50,s,FAIL
+5.9,Arc strike gap at beta=1.0,5.5,mm,
+5.9,Arc strike gap at beta=4.21,23.155,mm,
+5.9,Arc strike gap at beta=20,110,mm,
+5.9,Arc strike gap at beta=46,253,mm,
+5.9,Arc strike gap at beta=77,423.5,mm,
+5.9,Permitted contact potential at beta=4.21,1583.53,V,safety factor 3
+5.9,Permitted contact potential at beta=20,333.333,V,safety factor 3
+5.9,Permitted contact potential at beta=46,144.928,V,safety factor 3
+5.9,Permitted contact potential at beta=77,86.5801,V,safety factor 3
+5.12,"Platform potential, eps_r=10, t=0.20 mm",984.98,V,"C=22.1 nF, E=4.969 MV/m"
+5.12,"Platform potential, eps_r=10, t=0.10 mm",494.705,V,"C=44.3 nF, E=4.969 MV/m"
+5.12,"Platform potential, eps_r=1000, t=0.10 mm",4.96918,V,"C=4427.1 nF, E=0.050 MV/m"
+5.12,Bleed 5tau at 10.00 MOhm,221.355,s,FAIL
+5.12,Bleed 5tau at 2.00 MOhm,44.2709,s,FAIL
+5.12,Bleed 5tau at 1.36 MOhm,30.1042,s,FAIL
+5.12,Bleed 5tau at 1.00 MOhm,22.1355,s,PASS
+5.12,Bleed 5tau at 0.50 MOhm,11.0677,s,PASS
+5.15,Platform potential through none dust,4.96918,V,series C = 4427.09 nF
+5.15,Platform potential through 1 um dust,17.3901,V,series C = 1264.88 nF
+5.15,Platform potential through 10 um dust,129.053,V,series C = 170.27 nF
+5.15,Platform potential through 100 um dust,1233.33,V,series C = 17.64 nF
+5.15,Platform potential through 500 um dust,5884.17,V,series C = 3.54 nF
+5.13,Average charging current over 0.5 h,12.2222,nA,
+5.13,Average charging current over 1 h,6.11111,nA,
+5.13,Average charging current over 2 h,3.05556,nA,
+5.13,Average charging current over 4 h,1.52778,nA,
+5.13,Stored energy capped at 110 kV,1210,mJ,arc gap 424 mm
+5.13,Stored energy capped at 30 kV,90,mJ,arc gap 116 mm
+5.13,Stored energy capped at 10 kV,10,mJ,arc gap 38 mm
+5.14,"Max resistivity for 30 s, L=3.0 m A=1.0 m2",1e+10,Ohm.m,
+5.14,"Max resistivity for 30 s, L=3.0 m A=0.1 m2",1e+09,Ohm.m,
+5.14,"Max resistivity for 30 s, L=10.0 m A=1.0 m2",3e+09,Ohm.m,
+5.15,Regolith resistivity at 350 K,8.32542e+13,Ohm.m,"JGR 1974 sample 15301,38"
+5.15,Regolith resistivity at 300 K,2.72298e+14,Ohm.m,"JGR 1974 sample 15301,38"
+5.15,Regolith resistivity at 200 K,2.91288e+15,Ohm.m,"JGR 1974 sample 15301,38"
+5.15,Regolith resistivity at 100 K,3.11602e+16,Ohm.m,"JGR 1974 sample 15301,38"
+5.15,Regolith resistivity at 55 K,9.05265e+16,Ohm.m,"JGR 1974 sample 15301,38"
